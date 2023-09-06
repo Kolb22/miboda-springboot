@@ -26,7 +26,6 @@ public class Rsvp {
     @Column(unique = true)
     private String email;
 
-    @JsonFormat(pattern = "yyyy/MM/dd")
     private Date expiredDate;
 
     @ToString.Exclude
